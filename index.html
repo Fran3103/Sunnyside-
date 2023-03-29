@@ -17,16 +17,25 @@
 
   <section class="primera_seccion">
     <nav>
-      <img src="/images/logo.svg" alt="logo">
-      <img src="/images/icon-hamburger.svg" alt="burger" class="icono_menu">
-      <div class="menu">
-        <ul class="Menu_desktop menu_mobile">
-          <li>  <a href="#">About</a> </li>
-          <li>  <a href="#">Services</a> </li>
-          <li>  <a href="#">Projects</a> </li>
-          <li>  <a href="#">Contact</a> </li>
+      <img src="/images/logo.svg" class="logo" alt="logo">
+      <img src="/images/icon-hamburger.svg" alt="burger" class="icono_menu class="btn-desk" ">
+      <div class="Menu_desktop">
+        <ul class="menu_list">
+          <li>  <a href="#" class="btn-desk" >About</a> </li>
+          <li>  <a href="#" class="btn-desk" >Services</a> </li>
+          <li>  <a href="#" class="btn-desk" >Projects</a> </li>
+          <li>  <a href="#" class="active btn-desk">Contact</a> </li>
         </ul>
       </div>
+      <div class="menu">
+        <ul class="Menu_desktop menu_mobile">
+          <li>  <a href="#" class="btn">About</a> </li>
+          <li>  <a href="#" class="btn">Services</a> </li>
+          <li>  <a href="#" class="btn">Projects</a> </li>
+          <li>  <a href="#" class="btn">Contact</a> </li>
+        </ul>
+      </div>
+      
       
     </nav>
     <h1 class="title"> We are creatives</h1>
@@ -77,8 +86,9 @@
 
 
   <article>
+    <h3 class="cliente-titulo">Client testimonials</h3>
     <div class="container_cards">
-      <h3>Client testimonials</h3>
+      
       <div class="card_1 card">
         <img src="/images/image-emily.jpg" alt="Emily">
         <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
@@ -111,10 +121,10 @@
 
   <article>
     <div class="galeria_2">
-      <div class="img_1" > </div>
-      <div class="img_2" ></div>
-      <div class="img_3" ></div>
-      <div class="img_4" ></div>
+      <div class="img_1 img-galeria" > </div>
+      <div class="img_2 img-galeria" ></div>
+      <div class="img_3 img-galeria" ></div>
+      <div class="img_4 img-galeria" ></div>
     </div>
   </article>
 
@@ -145,5 +155,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.linkedin.com/in/franco-aguirre-24855012a/" target="_blank">Franco Aguirre</a>.
   </div>
+
+  <script src="/js/index.js"></script>
 </body>
+
 </html>
