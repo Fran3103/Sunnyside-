@@ -690,13 +690,15 @@ footer{
     nav{
         padding: 40px;
         .logo{
-            width: 120px;
-            margin-left: 60px;
+            margin-top: 50px;
+            width: 200px;
+            margin-left: 10px;
         }
         .icono_menu{
             display: none;
         }
         .Menu_desktop{
+            margin-top: 40px;
             display: flex;
             gap: 20px;
             .menu_list{
@@ -713,7 +715,7 @@ footer{
                 .active{
                     background-color: white;
                     color:$Verydarkdesaturatedblue;
-                    font-weight: 700;
+                    font-weight: 500;
                     border-radius: 40px;
                     padding: 10px 20px;
                     text-transform: uppercase;
@@ -734,18 +736,18 @@ footer{
         background-image: url(/images/desktop/image-header.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 700px;
         width: 100vw;
         h1{
             padding: 20px;
             margin-top: 70px;
-            font-size: 2.3rem;
+            font-size: 3.3rem;
         }
 
         .arrow{
-            margin: 55px 50%;
-            width: 20px;
-            height: 80px;
+            margin: 40px 50%;
+            width: 40px;
+            height: 100px;
         }
     }
     .galerias{

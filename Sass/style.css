@@ -603,13 +603,15 @@ footer .redes {
     padding: 40px;
   }
   nav .logo {
-    width: 120px;
-    margin-left: 60px;
+    margin-top: 50px;
+    width: 200px;
+    margin-left: 10px;
   }
   nav .icono_menu {
     display: none;
   }
   nav .Menu_desktop {
+    margin-top: 40px;
     display: flex;
     gap: 20px;
   }
@@ -628,7 +630,7 @@ footer .redes {
   nav .Menu_desktop .menu_list .active {
     background-color: white;
     color: hsl(212, 27%, 19%);
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 40px;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -645,18 +647,18 @@ footer .redes {
     background-image: url(/images/desktop/image-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 700px;
     width: 100vw;
   }
   .primera_seccion h1 {
     padding: 20px;
     margin-top: 70px;
-    font-size: 2.3rem;
+    font-size: 3.3rem;
   }
   .primera_seccion .arrow {
-    margin: 55px 50%;
-    width: 20px;
-    height: 80px;
+    margin: 40px 50%;
+    width: 40px;
+    height: 100px;
   }
   .galerias {
     display: grid;
